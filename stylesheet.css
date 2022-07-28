@@ -5,12 +5,15 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0px;
+}
+
+.introduction {
+    margin: 0px 200px;
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 60px;
 }
 
@@ -22,7 +25,6 @@ body {
 
 .header_logo h4 {
     color: #fff;
-
 }
 
 .header_links{
@@ -39,23 +41,37 @@ body {
 
 .second_level {
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-between;
+    margin: 50px 0px;
 }
 
-.second_level h1, {
+second_left {
+    flex-wrap: wrap;
+}
+
+.second_level h1 {
     color: #fff;
+    font-size: 48px;
+    font-weight: 900;
 }
 
-.second_level p
+.second_level p {
+    color: #fff;
+    flex-wrap: wrap;
+}
+
 
 .placeholder {
     display: flex;
-    width: 400px;
+    width: 450px;
+    height: 200px;
     background-color:grey;
     color: #E5E7EB;
     font-size: 18px;
     justify-content: center;
+    margin-left: 40px;
+    flex-shrink: 0;
+    align-items: center;
 }
 
 
