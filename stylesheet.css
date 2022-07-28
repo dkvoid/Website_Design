@@ -37,6 +37,18 @@ body {
     text-decoration: none;
 }
 
+.second_level {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.second_level h1, {
+    color: #fff;
+}
+
+.second_level p
+
 .placeholder {
     display: flex;
     width: 400px;
