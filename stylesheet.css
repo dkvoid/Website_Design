@@ -49,7 +49,8 @@ body {
 
 .second_left {
     flex-wrap: wrap;
-    width: 500px;
+    width: 550px;
+    height: 200px;
 }
 
 .second_level h1 {
@@ -72,10 +73,9 @@ button {
     border-radius: 10px;
 }
 
-
 .placeholder {
     display: flex;
-    width: 500px;
+    width: 550px;
     height: 200px;
     background-color:grey;
     color: #E5E7EB;
@@ -91,6 +91,7 @@ button {
     display: flex;
     flex-direction: column;
     height: 500px;
+    
     background-color: #fff;
     padding: 0px
 }
