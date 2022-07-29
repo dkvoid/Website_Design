@@ -1,20 +1,21 @@
 body {
-    background-color: #1F2937;
     font-family:Arial, Helvetica, sans-serif;
     height: 100vh;
+    width: ;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .introduction {
-    margin: 0px 200px;
+    background-color: #1F2937;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     height: 60px;
+    padding: 0px 200px;
+
 }
 
 .header_logo {
@@ -24,7 +25,7 @@ body {
 }
 
 .header_logo h4 {
-    color: #fff;
+    color: #fff;                    /*placeholder, change to correct color once layout is complete*/
 }
 
 .header_links{
@@ -35,7 +36,7 @@ body {
 }
 
 .header_links a {
-    color: #fff;
+    color: #fff;                    /*placeholder, change to correct color once layout is complete*/
     text-decoration: none;
 }
 
@@ -43,6 +44,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 50px 0px;
+    padding: 0px 200px;
 }
 
 second_left {
@@ -50,20 +52,20 @@ second_left {
 }
 
 .second_level h1 {
-    color: #fff;
+    color: #fff;                    /*placeholder, change to correct color once layout is complete*/
     font-size: 48px;
     font-weight: 900;
 }
 
 .second_level p {
-    color: #fff;
+    color: #fff;                    /*placeholder, change to correct color once layout is complete*/
     flex-wrap: wrap;
 }
 
 
 .placeholder {
     display: flex;
-    width: 450px;
+    width: 500px;
     height: 200px;
     background-color:grey;
     color: #E5E7EB;
@@ -72,9 +74,55 @@ second_left {
     margin-left: 40px;
     flex-shrink: 0;
     align-items: center;
+    padding-top:
 }
 
+.third_level {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-color: #fff;
+    padding: 0px
+}
 
+.group_of_eight {
+
+}
+
+.some_random {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+    padding: 40px;
+}
+
+.four_boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.bbl {
+    width: 150px;
+    height: 150px;
+    border: lightblue 3px solid;              /*placeholder, change to correct color once layout is complete*/
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+.box_descriptions {
+    display: flex;
+    justify-content: center;
+    flex-shrink: 1;
+}
+
+.bpl {
+    width: 100px;
+    margin-left: 40px;
+    margin-bottom: 120px;
+    flex-wrap: wrap;  
+
+}
 
 footer {
     display: flex;
