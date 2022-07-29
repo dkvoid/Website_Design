@@ -64,6 +64,14 @@ body {
     flex-wrap: wrap;
 }
 
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 5px 30px;
+    border-radius: 10px;
+}
+
 
 .placeholder {
     display: flex;
