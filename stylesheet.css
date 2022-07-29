@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: space-between;
     height: 60px;
-    padding: 0px 200px;
+    padding: 0px 240px;
 
 }
 
@@ -44,11 +44,12 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 50px 0px;
-    padding: 0px 200px;
+    padding: 0px 240px;
 }
 
-second_left {
+.second_left {
     flex-wrap: wrap;
+    width: 500px;
 }
 
 .second_level h1 {
@@ -71,7 +72,7 @@ second_left {
     color: #E5E7EB;
     font-size: 18px;
     justify-content: center;
-    margin-left: 40px;
+    margin-left: 80px;
     flex-shrink: 0;
     align-items: center;
     padding-top:
@@ -91,9 +92,11 @@ second_left {
     justify-content:
 }
 
-.some_random {
+.some_random h2{
     display: flex;
     justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
     height: 80px;
     align-items: center;
     padding: 40px;
@@ -107,9 +110,9 @@ second_left {
 .bbl {
     width: 150px;
     height: 150px;
-    border: lightblue 3px solid;              /*placeholder, change to correct color once layout is complete*/
-    margin-left: 40px;
-    border-radius: 20px;
+    border: lightblue 5px solid;              /*placeholder, change to correct color once layout is complete*/
+    margin: 0px 30px;
+    border-radius: 10px;
 }
 
 .box_descriptions {
@@ -119,8 +122,8 @@ second_left {
 }
 
 .bpl {
-    width: 150px;
-    margin: 0px 40px;
+    width: 156px;
+    margin: 0px 30px;
     margin-bottom: 120px;
     flex-wrap: wrap;  
     text-align: center;
