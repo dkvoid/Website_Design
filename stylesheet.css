@@ -151,12 +151,14 @@ button {
     font-style: italic;
     color: #1F2937;
     width: 880px;
+    margin: 0px;
 }
 
 .main_2 .signature {
     display: flex;
     justify-content: flex-end;
     font-size: 18px;
+    font-weight: 900;
 }
 
 footer {
