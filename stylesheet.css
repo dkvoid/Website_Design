@@ -1,7 +1,6 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
     height: 100vh;
-    width: ;
     display: flex;
     flex-direction: column;
 }
@@ -161,10 +160,17 @@ button {
     font-weight: 900;
 }
 
+.closing {
+    margin: 100px 240px;
+    display: flex;
+    flex-direction: column
+}
+
 footer {
     display: flex;
     height: 60px;
-    color: black;
+    background-color: black;
+    color: #E5E7EB;
     justify-content: center;
     align-items: center;
     font-size: 18px;
