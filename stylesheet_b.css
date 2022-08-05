@@ -9,7 +9,7 @@ body {
 
 .introduction { 
     background-color: #1F2937;
-    padding: 0px 350px;
+    padding: 0px 280px;
 }
 
 .header {
@@ -39,7 +39,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 150px 0px;
-    gap: 100px
+    gap: 90px
 }
 
 second_left {
@@ -56,7 +56,7 @@ second_left {
 .second_left p{
     font-size: 18px;
     color: #F9FAF8; 
-    margin: 0px;
+    margin-top: 20px;
 }
 
 button {
@@ -72,7 +72,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 650px;
+    width: 550px;
     height: 300px;
     background-color: grey;
     flex-shrink: 0;
@@ -81,5 +81,40 @@ button {
     flex-shrink: 0;
 }
 
+.third.level{
+    display: flex;
+    flex-direction: column;
+}
 
+h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 49px;
+}
+
+.boxes {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 49px;
+}
  
+.bbl {
+    border: solid 5px #3882F6;
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.descriptions {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.bpl {
+    width: 180px;
+    text-align: center;
+    font-size: 18px;
+}
