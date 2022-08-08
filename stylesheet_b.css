@@ -1,7 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
-    width: 100wh;
     display: flex;
     flex-direction: column;
     margin: 0px;
@@ -9,7 +8,7 @@ body {
 
 .introduction { 
     background-color: #1F2937;
-    padding: 0px 280px;
+    padding: 0px 230px;
 }
 
 .header {
@@ -39,11 +38,13 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 150px 0px;
-    gap: 90px
+    gap: 30px;
 }
 
-second_left {
-    align-self: flex-start;
+.second_left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .second_left h1 {
@@ -66,13 +67,14 @@ button {
     font-weight: 900;
     border-radius: 10px;
     margin-top: 10px;
+    flex-grow: 0;
 }
 
 .second_right {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 550px;
+    width: 600px;
     height: 300px;
     background-color: grey;
     flex-shrink: 0;
@@ -117,4 +119,13 @@ h2 {
     width: 180px;
     text-align: center;
     font-size: 18px;
+}
+
+.fourth_level { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100px 0px;
+    width: 870px;
+    background-color: #E5E7EB;
 }
