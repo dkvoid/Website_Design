@@ -144,4 +144,31 @@ h2 {
     align-self: flex-end;
 }
 
+.fifth_level {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 280px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.closing_left h4{
+    padding: 50px 0px 0px 0px;
+    font-size: 24px;
+    color:#F9FAF8;
+    margin: 0px;
+}
+
+.closing_left p{
+    padding: 0px 0px 50px 0px;
+    font-size: 18px;
+    color:#E5E7EB;
+    margin: 0px;
+}
+
+.b2 {
+    border: white 3px solid;
+}
+
 
