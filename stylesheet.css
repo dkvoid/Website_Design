@@ -1,14 +1,21 @@
+* {
+    /* max-width: fit-content; */
+
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;                                                  /*Only thing left to do is to make it so that the page stays inline when zooming out*/
+    height: 100%;
+    width: 100%;*/
+    /*display: flex;
+    flex-direction: column;*/
     margin: 0px;
 }
 
 .introduction { 
     background-color: #1F2937;
-    padding: 0px 280px;
+    padding: 0px 310px;
 }
 
 .header {
@@ -16,6 +23,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0px;
+    flex: auto;
 }
 
 .header_logo {
@@ -31,20 +39,22 @@ body {
     font-size: 18px;
     gap: 20px;
     text-decoration: none;
+    flex: initial;
 }
 
 .second_level {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 150px 0px;
-    gap: 80px;
+    gap: 100px;
 }
 
 .second_left {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    flex: initial;
 }
 
 .second_left h1 {
@@ -73,9 +83,8 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*width: 650px;
-    height: 300px;*/
-    padding: 100px 150px;
+    width: 625px;
+    height: 275px; 
     background-color: grey;
     flex-shrink: 0;
     color: #E5E7EB;
@@ -148,7 +157,7 @@ h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 100px 280px;
+    margin: 100px 320px;
     background-color: #3882F6;
     border-radius: 10px;
 }
@@ -169,6 +178,17 @@ h2 {
 
 .b2 {
     border: white 3px solid;
+}
+
+footer {
+    background-color: #1F2937;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 
